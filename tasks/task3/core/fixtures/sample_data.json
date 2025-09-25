@@ -1,0 +1,11 @@
+[
+  {
+    "model": "core.developer",
+    "pk": 1,
+    "fields": {
+      "first_name": "mostafa",
+      "last_name": "saeedi",
+      "email": "mostafa06saeedi@gmail.com",
+      "age": 19
+    }
+  }]

@@ -1,0 +1,12 @@
+<h1>Projects List</h1>
+<ul>
+  {% for project in projects %}
+    <li>{{ project.title }}
+      <ul>
+        {% for dev in project.developers.all %}
+          <li>{{ dev.first_name }} {{ dev.last_name }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
